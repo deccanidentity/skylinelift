@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#FFFFFF"/>
+  <!-- Outer Elevator Frame -->
+  <rect x="10" y="8" width="44" height="48" stroke="#079FC4" stroke-width="2.5"/>
+  <!-- Floor Indicator Box -->
+  <rect x="25" y="11" width="14" height="4" rx="1" fill="#2056A0"/>
+  <!-- Inner Elevator Door Frame -->
+  <rect x="15" y="17" width="34" height="39" stroke="#079FC4" stroke-width="2"/>
+  <!-- Center Door Split Line -->
+  <line x1="32" y1="17" x2="32" y2="56" stroke="#079FC4" stroke-width="2.5"/>
+  <!-- Up Arrow (Left Door) -->
+  <path d="M20 38L23.5 34.5L27 38" stroke="#079FC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 41.5L23.5 38L27 41.5" stroke="#079FC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Down Arrow (Right Door) -->
+  <path d="M37 34.5L40.5 38L44 34.5" stroke="#079FC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 38L40.5 41.5L44 38" stroke="#079FC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dynamic Blue Swoosh -->
+  <path d="M10 55C26 55 44 49 54 34V42C44 52 28 56 10 56V55Z" fill="#2056A0"/>
+</svg>
